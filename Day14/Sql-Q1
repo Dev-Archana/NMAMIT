@@ -1,0 +1,20 @@
+/** All Products
+Task
+Write a query to output all the columns from the Products table.
+
+Table name: Products */
+
+select * from Products
+
+/* High Price of Products
+Task
+Write a query to find all product_name and category that have a price greater than 100.00 from the Products table.
+
+Table name: Products */
+
+select product_name,category from Products where price>100
+
+/*
+Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
+*/
+SELECT * FROM CITY WHERE POPULATION>100000 AND COUNTRYCODE = 'USA'
